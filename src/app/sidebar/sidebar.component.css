@@ -1,0 +1,61 @@
+.sidebar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px;
+  margin: 0 auto;
+  max-width: 1500px; /* Increase max-width for overall container */
+  background-color: #f0f0f0; /* Set background color for the sidebar container */
+}
+
+.sidebar-content {
+  padding: 30px; /* Increase padding for more spacing */
+  background-color: #ffffff; /* Background color for the content section */
+  border-radius: 10px; /* Rounded corners */
+  text-align: left; /* Align text to the left */
+  max-width: 600px; /* Increase width limit for the content */
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #060b0d;
+  margin-bottom: 15px;
+}
+
+.centered-title {
+  font-size: 2.5rem;
+  color: #060b0d;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #f8be00;
+  border-color: #f8be00;
+  color: black;
+  border-radius: 10px;
+}
+
+.btn-primary i {
+  margin-right: 8px;
+}
+
+.sidebar-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 1500px; /* Set max-width for the image container */
+}
+
+.sidebar-image img {
+  width: 100%; /* Set the width of the image to fill the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 1000px; /* Set the max-width for the image */
+}

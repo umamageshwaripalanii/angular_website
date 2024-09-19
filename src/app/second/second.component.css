@@ -1,0 +1,71 @@
+/* Sidebar container layout */
+.sidebar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #ffffff;
+}
+
+/* Sidebar content styling */
+.sidebar-content {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 600px;
+}
+
+.sidebar-subtitle {
+  font-size: 1.5rem;
+  color: #060b0d;
+  margin-bottom: 15px;
+}
+
+.sidebar-heading {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.sidebar-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.custom-button {
+  background-color: #ff6600; /* Orange color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto; /* Center the button */
+  display: block; /* Make sure the button stays centered */
+}
+
+/* Button hover effect */
+.custom-button:hover {
+  background-color: #e65c00; /* Darker orange on hover */
+}
+
+/* Sidebar image styling */
+.sidebar-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 600px;
+}
+
+.sidebar-image img {
+  width: 70%;
+  height: auto;
+}

@@ -1,0 +1,27 @@
+.custom-navbar {
+    background-color: #060b0d; /* Set your background color */
+  }
+  
+  .adjusted-image {
+    height: 70px;
+    width: 200px;
+    border-radius: 40%;
+    position: relative;
+    left: 100px;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Adjust the size of the circle */
+    height: 50px; /* Adjust the size of the circle */
+    border-radius: 50%; /* Makes the container circular */
+    background-color: #ffffff; /* Background color of the circle */
+  }
+  
+  .icon-container i {
+    color: #060b0d; /* Icon color */
+    font-size: 20px; /* Adjust icon size */
+  }
+  
